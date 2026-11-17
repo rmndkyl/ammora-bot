@@ -1,6 +1,25 @@
-# Ammora Season 2 Bot — LYID
+# Ammora Bot (Season 2)
+
+**Versi:** 1.0.0 · **Harga:** Rp 65.000 (~$4) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
 
 Bot automation untuk **Ammora Season 2** (liquidity protocol di atas GIWA — L2 milik Dunamu/Upbit, chainId `91342`). Murni HTTP + transaksi on-chain ringan, **tanpa browser**.
+
+## Kebutuhan
+
+| Item | Detail |
+|---|---|
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | tidak perlu |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
+
+## Pembayaran
+
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
+
+---
 
 > Status reward: $tAMM testnet + SBT (pool 20M $tAMM). Konversi $tAMM → $AMM direncanakan setelah mainnet GIWA. Belum ada TGE/date resmi. Airdrop = spekulatif; nilai nyata saat ini: kursi beta top-1.000 leaderboard.
 
@@ -52,7 +71,6 @@ python -m src.main --daily --accounts acc01 --no-jitter --max-tx 1   # run uji t
 [acc01] AP=550 rank=1195 reg=True
 [acc01] checkin +100 AP
 [acc01] sending 0.001 ETH to vault via deposit()...
-[acc01] vault tx 0x7c422f7f51aa2a3b0c5d99be38c2830848a35ac58fdf4b3186f91c298704d036
 [acc01] verify vault -> ok
 SUMMARY: acc01: AP=600 done=['vault +50'] skipped=['vault (today done)'] errors=[]
 ```
